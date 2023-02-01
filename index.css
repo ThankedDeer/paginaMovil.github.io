@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body{
+    background-color: black !important;
+}
+
+.texto{
+    text-align: justify;
+    font-family: 'Questrial', sans-serif;
+}
+.col6{
+   position: relative;
+    display: flex;
+    justify-content: center;   
+    height: 720px;
+   
+}
+
+.fondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 60vw;
+    height: 40vw;
+    margin: 40px;
+    background-color: white;
+    border-radius: 64% 36% 65% 35% / 30% 73% 27% 70%  ;
+   
+}
+.imagen{
+
+   max-width: 70%;
+   max-height: 70%;
+
+   
+
+    
+}
+
+
+@keyframes square-animation {
+    0% {
+     left: 0;
+     top: 0;
+    }
+   
+    10.5% {
+     left: 0;
+     top: 0;
+    }
+   
+    12.5% {
+     left: 32px;
+     top: 0;
+    }
+   
+    23% {
+     left: 32px;
+     top: 0;
+    }
+   
+    25% {
+     left: 64px;
+     top: 0;
+    }
+   
+    35.5% {
+     left: 64px;
+     top: 0;
+    }
+   
+    37.5% {
+     left: 64px;
+     top: 32px;
+    }
+   
+    48% {
+     left: 64px;
+     top: 32px;
+    }
+   
+    50% {
+     left: 32px;
+     top: 32px;
+    }
+   
+    60.5% {
+     left: 32px;
+     top: 32px;
+    }
+   
+    62.5% {
+     left: 32px;
+     top: 64px;
+    }
+   
+    73% {
+     left: 32px;
+     top: 64px;
+    }
+   
+    75% {
+     left: 0;
+     top: 64px;
+    }
+   
+    85.5% {
+     left: 0;
+     top: 64px;
+    }
+   
+    87.5% {
+     left: 0;
+     top: 32px;
+    }
+   
+    98% {
+     left: 0;
+     top: 32px;
+    }
+   
+    100% {
+     left: 0;
+     top: 0;
+    }
+   }
+   .col2{
+    height: 720px;
+   
+   }
+   .loader {
+   position: absolute;
+   bottom: 90px;
+   right: 80px;
+    width: 96px;
+    height: 96px;
+    transform: rotate(45deg);
+    align-items: center;
+    
+   }
+   
+   .loader-square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    margin: 2px;
+    border-radius: 0px;
+    background: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: square-animation 10s ease-in-out infinite both;
+   }
+   
+   .loader-square:nth-of-type(0) {
+    animation-delay: 0s;
+   }
+   
+   .loader-square:nth-of-type(1) {
+    animation-delay: -1.4285714286s;
+   }
+   
+   .loader-square:nth-of-type(2) {
+    animation-delay: -2.8571428571s;
+   }
+   
+   .loader-square:nth-of-type(3) {
+    animation-delay: -4.2857142857s;
+   }
+   
+   .loader-square:nth-of-type(4) {
+    animation-delay: -5.7142857143s;
+   }
+   
+   .loader-square:nth-of-type(5) {
+    animation-delay: -7.1428571429s;
+   }
+   
+   .loader-square:nth-of-type(6) {
+    animation-delay: -8.5714285714s;
+   }
+   
+   .loader-square:nth-of-type(7) {
+    animation-delay: -10s;
+   }
+
+.texto{
+    
+    color: white;
+    text-align: justify;
+    top: 200px;
+    position: relative;
+    
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+    
+    background: black;
+    box-shadow: 0 0 25px black;
+    border: 1px solid white;
+}
+
+
+.shadow__btn:hover {
+    border: 1px solid black;
+  box-shadow: 0 0 5px #fff,
+              0 0 25px #fff,
+              0 0 50px#fff,
+              0 0 100px #fff;
+
+}
+.boton{
+    position: absolute;
+    top: 400px;
+}
+#video{
+    max-height: 60%;
+    max-width: 80%;
+}
+.col-8{
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos{
+   
+    width: 500px;
+    height: auto;
+}
+.logotipos{
+    max-width: 70%;
+    max-height: 70%;
+}
+.col-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo1{
+    position: relative;
+    top: 25px;
+    left: 100px;
+    transform: rotatez(25deg);
+}
+#logo2{
+    position: relative;
+    top: 70px;
+    left: 0px;
+    transform: rotatez(-15deg);
+}
+#logo3{
+    position: relative;
+    top: 130px;
+    left: 150px;
+    transform: rotatez(15deg);
+}
+
+@media screen and (max-width: 740px) {
+   
+    .fondo{
+        position: absolute;
+        top: 200px;
+        width: 40vw;
+        height: 40vw; 
+    }
+    .texto{
+        font-size: 3vw;
+    }
+    .loader {
+        position: absolute;
+        bottom: 5vw;
+        right: 10vw;
+         width: 96px;
+         height: 96px;
+         transform: rotate(45deg);
+         align-items: center;
+         
+        }
+        .loader-square {
+           
+            position: absolute;
+            
+            width: 30px;
+            height: 30px;
+            margin: 1px;
+            border-radius: 20px;
+            background: white;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            animation: square-animation 10s ease-in-out infinite both;
+           }
+           .boton{
+            position: absolute;
+            top: 500px;
+            left: 30px;
+            font-size: x-small;
+        }
+        #logo1{
+            position: relative;
+            top: 25px;
+            left: 20px;
+            transform: rotatez(25deg);
+        }
+        #logo2{
+            position: relative;
+            top: 70px;
+            left: 0px;
+            transform: rotatez(-15deg);
+        }
+        #logo3{
+            position: relative;
+            top: 130px;
+            left: 20px;
+            transform: rotatez(15deg);
+        }
+        
+    
+    
+
+    
+}
+
+
+     

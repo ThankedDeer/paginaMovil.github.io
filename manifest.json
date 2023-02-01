@@ -1,0 +1,18 @@
+{
+    "short_name" : "Pagina1",
+    "name" : "Creando Pagina1",
+    "icons":[
+        {
+
+            "src": "cr1.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "background_color": "#f9d627",
+    "display": "standalone",
+    "scoped": "/",
+    "thme_color": "f9d627",
+    "description": "Weather forescat information"
+}
